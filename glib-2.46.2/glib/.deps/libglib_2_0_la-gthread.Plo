@@ -1,0 +1,201 @@
+libglib_2_0_la-gthread.lo: gthread.c ../config.h gthread.h \
+ ../glib/gatomic.h ../glib/gtypes.h glibconfig.h ../glib/gmacros.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/syslimits.h \
+ /usr/arm-linux-gnueabi/include/limits.h \
+ /usr/arm-linux-gnueabi/include/features.h \
+ /usr/arm-linux-gnueabi/include/bits/predefs.h \
+ /usr/arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabi/include/bits/posix1_lim.h \
+ /usr/arm-linux-gnueabi/include/bits/local_lim.h \
+ /usr/arm-linux-gnueabi/include/linux/limits.h \
+ /usr/arm-linux-gnueabi/include/bits/posix2_lim.h \
+ /usr/arm-linux-gnueabi/include/bits/xopen_lim.h \
+ /usr/arm-linux-gnueabi/include/bits/stdio_lim.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/float.h \
+ ../glib/gversionmacros.h /usr/arm-linux-gnueabi/include/time.h \
+ /usr/arm-linux-gnueabi/include/bits/time.h \
+ /usr/arm-linux-gnueabi/include/bits/types.h \
+ /usr/arm-linux-gnueabi/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabi/include/bits/timex.h \
+ /usr/arm-linux-gnueabi/include/xlocale.h ../glib/gerror.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h ../glib/gquark.h \
+ ../glib/gutils.h gthreadprivate.h deprecated/gthread.h ../glib/gthread.h \
+ /usr/arm-linux-gnueabi/include/sys/types.h \
+ /usr/arm-linux-gnueabi/include/endian.h \
+ /usr/arm-linux-gnueabi/include/bits/endian.h \
+ /usr/arm-linux-gnueabi/include/bits/byteswap.h \
+ /usr/arm-linux-gnueabi/include/sys/select.h \
+ /usr/arm-linux-gnueabi/include/bits/select.h \
+ /usr/arm-linux-gnueabi/include/bits/sigset.h \
+ /usr/arm-linux-gnueabi/include/bits/select2.h \
+ /usr/arm-linux-gnueabi/include/sys/sysmacros.h \
+ /usr/arm-linux-gnueabi/include/bits/pthreadtypes.h \
+ /usr/arm-linux-gnueabi/include/pthread.h \
+ /usr/arm-linux-gnueabi/include/sched.h \
+ /usr/arm-linux-gnueabi/include/bits/sched.h \
+ /usr/arm-linux-gnueabi/include/bits/setjmp.h \
+ /usr/arm-linux-gnueabi/include/string.h \
+ /usr/arm-linux-gnueabi/include/bits/string.h \
+ /usr/arm-linux-gnueabi/include/bits/string2.h \
+ /usr/arm-linux-gnueabi/include/stdlib.h \
+ /usr/arm-linux-gnueabi/include/bits/string3.h \
+ /usr/arm-linux-gnueabi/include/unistd.h \
+ /usr/arm-linux-gnueabi/include/bits/posix_opt.h \
+ /usr/arm-linux-gnueabi/include/bits/environments.h \
+ /usr/arm-linux-gnueabi/include/bits/confname.h \
+ /usr/arm-linux-gnueabi/include/getopt.h \
+ /usr/arm-linux-gnueabi/include/bits/unistd.h \
+ /usr/arm-linux-gnueabi/include/sys/time.h gslice.h gstrfuncs.h \
+ gtestutils.h ../glib/gmessages.h ../glib/gstring.h ../glib/gunicode.h \
+ ../glib/gbytes.h ../glib/garray.h ../glib/gslist.h ../glib/gmem.h \
+ ../glib/gnode.h
+
+../config.h:
+
+gthread.h:
+
+../glib/gatomic.h:
+
+../glib/gtypes.h:
+
+glibconfig.h:
+
+../glib/gmacros.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/syslimits.h:
+
+/usr/arm-linux-gnueabi/include/limits.h:
+
+/usr/arm-linux-gnueabi/include/features.h:
+
+/usr/arm-linux-gnueabi/include/bits/predefs.h:
+
+/usr/arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabi/include/bits/posix1_lim.h:
+
+/usr/arm-linux-gnueabi/include/bits/local_lim.h:
+
+/usr/arm-linux-gnueabi/include/linux/limits.h:
+
+/usr/arm-linux-gnueabi/include/bits/posix2_lim.h:
+
+/usr/arm-linux-gnueabi/include/bits/xopen_lim.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdio_lim.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/float.h:
+
+../glib/gversionmacros.h:
+
+/usr/arm-linux-gnueabi/include/time.h:
+
+/usr/arm-linux-gnueabi/include/bits/time.h:
+
+/usr/arm-linux-gnueabi/include/bits/types.h:
+
+/usr/arm-linux-gnueabi/include/bits/typesizes.h:
+
+/usr/arm-linux-gnueabi/include/bits/timex.h:
+
+/usr/arm-linux-gnueabi/include/xlocale.h:
+
+../glib/gerror.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h:
+
+../glib/gquark.h:
+
+../glib/gutils.h:
+
+gthreadprivate.h:
+
+deprecated/gthread.h:
+
+../glib/gthread.h:
+
+/usr/arm-linux-gnueabi/include/sys/types.h:
+
+/usr/arm-linux-gnueabi/include/endian.h:
+
+/usr/arm-linux-gnueabi/include/bits/endian.h:
+
+/usr/arm-linux-gnueabi/include/bits/byteswap.h:
+
+/usr/arm-linux-gnueabi/include/sys/select.h:
+
+/usr/arm-linux-gnueabi/include/bits/select.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigset.h:
+
+/usr/arm-linux-gnueabi/include/bits/select2.h:
+
+/usr/arm-linux-gnueabi/include/sys/sysmacros.h:
+
+/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h:
+
+/usr/arm-linux-gnueabi/include/pthread.h:
+
+/usr/arm-linux-gnueabi/include/sched.h:
+
+/usr/arm-linux-gnueabi/include/bits/sched.h:
+
+/usr/arm-linux-gnueabi/include/bits/setjmp.h:
+
+/usr/arm-linux-gnueabi/include/string.h:
+
+/usr/arm-linux-gnueabi/include/bits/string.h:
+
+/usr/arm-linux-gnueabi/include/bits/string2.h:
+
+/usr/arm-linux-gnueabi/include/stdlib.h:
+
+/usr/arm-linux-gnueabi/include/bits/string3.h:
+
+/usr/arm-linux-gnueabi/include/unistd.h:
+
+/usr/arm-linux-gnueabi/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabi/include/bits/environments.h:
+
+/usr/arm-linux-gnueabi/include/bits/confname.h:
+
+/usr/arm-linux-gnueabi/include/getopt.h:
+
+/usr/arm-linux-gnueabi/include/bits/unistd.h:
+
+/usr/arm-linux-gnueabi/include/sys/time.h:
+
+gslice.h:
+
+gstrfuncs.h:
+
+gtestutils.h:
+
+../glib/gmessages.h:
+
+../glib/gstring.h:
+
+../glib/gunicode.h:
+
+../glib/gbytes.h:
+
+../glib/garray.h:
+
+../glib/gslist.h:
+
+../glib/gmem.h:
+
+../glib/gnode.h:

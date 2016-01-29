@@ -1,0 +1,194 @@
+src/core/libsystemd_core_la-tcpwrap.lo: src/core/tcpwrap.c config.h \
+ /usr/OSS/systemd_relative/production/include/sys/socket.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/sys/uio.h \
+ /usr/OSS/systemd_relative/production/include/sys/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/typesizes.h \
+ /usr/OSS/systemd_relative/production/include/time.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/OSS/systemd_relative/production/include/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/byteswap.h \
+ /usr/OSS/systemd_relative/production/include/sys/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/sigset.h \
+ /usr/OSS/systemd_relative/production/include/bits/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/sysmacros.h \
+ /usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h \
+ /usr/OSS/systemd_relative/production/include/bits/uio.h \
+ /usr/OSS/systemd_relative/production/include/bits/socket.h \
+ /usr/OSS/systemd_relative/production/include/bits/sockaddr.h \
+ /usr/OSS/systemd_relative/production/include/asm/socket.h \
+ /usr/OSS/systemd_relative/production/include/asm/sockios.h \
+ /usr/OSS/systemd_relative/production/include/sys/un.h \
+ /usr/OSS/systemd_relative/production/include/string.h \
+ /usr/OSS/systemd_relative/production/include/xlocale.h \
+ /usr/OSS/systemd_relative/production/include/arpa/inet.h \
+ /usr/OSS/systemd_relative/production/include/netinet/in.h \
+ /usr/OSS/systemd_relative/production/include/stdint.h \
+ /usr/OSS/systemd_relative/production/include/bits/wchar.h \
+ /usr/OSS/systemd_relative/production/include/bits/in.h \
+ src/core/tcpwrap.h /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h \
+ src/shared/log.h /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h \
+ /usr/OSS/systemd_relative/production/include/syslog.h \
+ /usr/OSS/systemd_relative/production/include/sys/syslog.h \
+ /usr/OSS/systemd_relative/production/include/bits/syslog-path.h \
+ /usr/OSS/systemd_relative/production/include/sys/signalfd.h \
+ /usr/OSS/systemd_relative/production/include/signal.h \
+ /usr/OSS/systemd_relative/production/include/errno.h \
+ /usr/OSS/systemd_relative/production/include/bits/errno.h \
+ /usr/OSS/systemd_relative/production/include/linux/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h \
+ src/shared/macro.h /usr/OSS/systemd_relative/production/include/assert.h \
+ /usr/OSS/systemd_relative/production/include/sys/param.h \
+ /usr/OSS/systemd_relative/production/include/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/limits.h \
+ /usr/OSS/systemd_relative/production/include/bits/posix1_lim.h \
+ /usr/OSS/systemd_relative/production/include/bits/local_lim.h \
+ /usr/OSS/systemd_relative/production/include/linux/limits.h \
+ /usr/OSS/systemd_relative/production/include/bits/posix2_lim.h \
+ /usr/OSS/systemd_relative/production/include/bits/xopen_lim.h \
+ /usr/OSS/systemd_relative/production/include/bits/stdio_lim.h \
+ /usr/OSS/systemd_relative/production/include/linux/param.h \
+ /usr/OSS/systemd_relative/production/include/asm/param.h \
+ /usr/OSS/systemd_relative/production/include/inttypes.h \
+ src/systemd/sd-id128.h src/systemd/_sd-common.h
+
+config.h:
+
+/usr/OSS/systemd_relative/production/include/sys/socket.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/uio.h:
+
+/usr/OSS/systemd_relative/production/include/sys/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/typesizes.h:
+
+/usr/OSS/systemd_relative/production/include/time.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/byteswap.h:
+
+/usr/OSS/systemd_relative/production/include/sys/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sigset.h:
+
+/usr/OSS/systemd_relative/production/include/bits/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/sysmacros.h:
+
+/usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h:
+
+/usr/OSS/systemd_relative/production/include/bits/uio.h:
+
+/usr/OSS/systemd_relative/production/include/bits/socket.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sockaddr.h:
+
+/usr/OSS/systemd_relative/production/include/asm/socket.h:
+
+/usr/OSS/systemd_relative/production/include/asm/sockios.h:
+
+/usr/OSS/systemd_relative/production/include/sys/un.h:
+
+/usr/OSS/systemd_relative/production/include/string.h:
+
+/usr/OSS/systemd_relative/production/include/xlocale.h:
+
+/usr/OSS/systemd_relative/production/include/arpa/inet.h:
+
+/usr/OSS/systemd_relative/production/include/netinet/in.h:
+
+/usr/OSS/systemd_relative/production/include/stdint.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wchar.h:
+
+/usr/OSS/systemd_relative/production/include/bits/in.h:
+
+src/core/tcpwrap.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h:
+
+src/shared/log.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h:
+
+/usr/OSS/systemd_relative/production/include/syslog.h:
+
+/usr/OSS/systemd_relative/production/include/sys/syslog.h:
+
+/usr/OSS/systemd_relative/production/include/bits/syslog-path.h:
+
+/usr/OSS/systemd_relative/production/include/sys/signalfd.h:
+
+/usr/OSS/systemd_relative/production/include/signal.h:
+
+/usr/OSS/systemd_relative/production/include/errno.h:
+
+/usr/OSS/systemd_relative/production/include/bits/errno.h:
+
+/usr/OSS/systemd_relative/production/include/linux/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h:
+
+src/shared/macro.h:
+
+/usr/OSS/systemd_relative/production/include/assert.h:
+
+/usr/OSS/systemd_relative/production/include/sys/param.h:
+
+/usr/OSS/systemd_relative/production/include/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include-fixed/limits.h:
+
+/usr/OSS/systemd_relative/production/include/bits/posix1_lim.h:
+
+/usr/OSS/systemd_relative/production/include/bits/local_lim.h:
+
+/usr/OSS/systemd_relative/production/include/linux/limits.h:
+
+/usr/OSS/systemd_relative/production/include/bits/posix2_lim.h:
+
+/usr/OSS/systemd_relative/production/include/bits/xopen_lim.h:
+
+/usr/OSS/systemd_relative/production/include/bits/stdio_lim.h:
+
+/usr/OSS/systemd_relative/production/include/linux/param.h:
+
+/usr/OSS/systemd_relative/production/include/asm/param.h:
+
+/usr/OSS/systemd_relative/production/include/inttypes.h:
+
+src/systemd/sd-id128.h:
+
+src/systemd/_sd-common.h:

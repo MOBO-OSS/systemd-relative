@@ -1,0 +1,39 @@
+src/core/libsystemd_core_la-audit-fd.lo: src/core/audit-fd.c config.h \
+ /usr/OSS/systemd_relative/production/include/errno.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/bits/errno.h \
+ /usr/OSS/systemd_relative/production/include/linux/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h \
+ src/core/audit-fd.h
+
+config.h:
+
+/usr/OSS/systemd_relative/production/include/errno.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/errno.h:
+
+/usr/OSS/systemd_relative/production/include/linux/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h:
+
+src/core/audit-fd.h:

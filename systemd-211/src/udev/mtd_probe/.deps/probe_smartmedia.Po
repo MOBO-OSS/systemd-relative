@@ -1,0 +1,169 @@
+src/udev/mtd_probe/probe_smartmedia.o: \
+ src/udev/mtd_probe/probe_smartmedia.c config.h \
+ /usr/OSS/systemd_relative/production/include/stdio.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/OSS/systemd_relative/production/include/bits/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/typesizes.h \
+ /usr/OSS/systemd_relative/production/include/libio.h \
+ /usr/OSS/systemd_relative/production/include/_G_config.h \
+ /usr/OSS/systemd_relative/production/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h \
+ /usr/OSS/systemd_relative/production/include/bits/stdio_lim.h \
+ /usr/OSS/systemd_relative/production/include/bits/sys_errlist.h \
+ /usr/OSS/systemd_relative/production/include/stdlib.h \
+ /usr/OSS/systemd_relative/production/include/bits/waitflags.h \
+ /usr/OSS/systemd_relative/production/include/bits/waitstatus.h \
+ /usr/OSS/systemd_relative/production/include/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/byteswap.h \
+ /usr/OSS/systemd_relative/production/include/xlocale.h \
+ /usr/OSS/systemd_relative/production/include/sys/types.h \
+ /usr/OSS/systemd_relative/production/include/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/sigset.h \
+ /usr/OSS/systemd_relative/production/include/bits/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/sysmacros.h \
+ /usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h \
+ /usr/OSS/systemd_relative/production/include/alloca.h \
+ /usr/OSS/systemd_relative/production/include/mtd/mtd-user.h \
+ /usr/OSS/systemd_relative/production/include/stdint.h \
+ /usr/OSS/systemd_relative/production/include/bits/wchar.h \
+ /usr/OSS/systemd_relative/production/include/mtd/mtd-abi.h \
+ /usr/OSS/systemd_relative/production/include/linux/types.h \
+ /usr/OSS/systemd_relative/production/include/asm/types.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/int-ll64.h \
+ /usr/OSS/systemd_relative/production/include/asm/bitsperlong.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/bitsperlong.h \
+ /usr/OSS/systemd_relative/production/include/linux/posix_types.h \
+ /usr/OSS/systemd_relative/production/include/linux/stddef.h \
+ /usr/OSS/systemd_relative/production/include/asm/posix_types.h \
+ /usr/OSS/systemd_relative/production/include/string.h \
+ /usr/OSS/systemd_relative/production/include/sys/stat.h \
+ /usr/OSS/systemd_relative/production/include/bits/stat.h \
+ /usr/OSS/systemd_relative/production/include/fcntl.h \
+ /usr/OSS/systemd_relative/production/include/bits/fcntl.h \
+ /usr/OSS/systemd_relative/production/include/bits/uio.h \
+ /usr/OSS/systemd_relative/production/include/unistd.h \
+ /usr/OSS/systemd_relative/production/include/bits/posix_opt.h \
+ /usr/OSS/systemd_relative/production/include/bits/environments.h \
+ /usr/OSS/systemd_relative/production/include/bits/confname.h \
+ /usr/OSS/systemd_relative/production/include/getopt.h \
+ src/udev/mtd_probe/mtd_probe.h
+
+config.h:
+
+/usr/OSS/systemd_relative/production/include/stdio.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/bits/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/typesizes.h:
+
+/usr/OSS/systemd_relative/production/include/libio.h:
+
+/usr/OSS/systemd_relative/production/include/_G_config.h:
+
+/usr/OSS/systemd_relative/production/include/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h:
+
+/usr/OSS/systemd_relative/production/include/bits/stdio_lim.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sys_errlist.h:
+
+/usr/OSS/systemd_relative/production/include/stdlib.h:
+
+/usr/OSS/systemd_relative/production/include/bits/waitflags.h:
+
+/usr/OSS/systemd_relative/production/include/bits/waitstatus.h:
+
+/usr/OSS/systemd_relative/production/include/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/byteswap.h:
+
+/usr/OSS/systemd_relative/production/include/xlocale.h:
+
+/usr/OSS/systemd_relative/production/include/sys/types.h:
+
+/usr/OSS/systemd_relative/production/include/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sigset.h:
+
+/usr/OSS/systemd_relative/production/include/bits/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/sysmacros.h:
+
+/usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h:
+
+/usr/OSS/systemd_relative/production/include/alloca.h:
+
+/usr/OSS/systemd_relative/production/include/mtd/mtd-user.h:
+
+/usr/OSS/systemd_relative/production/include/stdint.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wchar.h:
+
+/usr/OSS/systemd_relative/production/include/mtd/mtd-abi.h:
+
+/usr/OSS/systemd_relative/production/include/linux/types.h:
+
+/usr/OSS/systemd_relative/production/include/asm/types.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/int-ll64.h:
+
+/usr/OSS/systemd_relative/production/include/asm/bitsperlong.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/bitsperlong.h:
+
+/usr/OSS/systemd_relative/production/include/linux/posix_types.h:
+
+/usr/OSS/systemd_relative/production/include/linux/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/asm/posix_types.h:
+
+/usr/OSS/systemd_relative/production/include/string.h:
+
+/usr/OSS/systemd_relative/production/include/sys/stat.h:
+
+/usr/OSS/systemd_relative/production/include/bits/stat.h:
+
+/usr/OSS/systemd_relative/production/include/fcntl.h:
+
+/usr/OSS/systemd_relative/production/include/bits/fcntl.h:
+
+/usr/OSS/systemd_relative/production/include/bits/uio.h:
+
+/usr/OSS/systemd_relative/production/include/unistd.h:
+
+/usr/OSS/systemd_relative/production/include/bits/posix_opt.h:
+
+/usr/OSS/systemd_relative/production/include/bits/environments.h:
+
+/usr/OSS/systemd_relative/production/include/bits/confname.h:
+
+/usr/OSS/systemd_relative/production/include/getopt.h:
+
+src/udev/mtd_probe/mtd_probe.h:

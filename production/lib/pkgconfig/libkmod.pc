@@ -1,0 +1,11 @@
+prefix=/usr/OSS/systemd_relative/production
+exec_prefix=
+libdir=/usr/OSS/systemd_relative/production/lib
+includedir=/usr/OSS/systemd_relative/production/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 21
+Libs: -L${libdir} -lkmod
+Libs.private:  
+Cflags: -I${includedir}

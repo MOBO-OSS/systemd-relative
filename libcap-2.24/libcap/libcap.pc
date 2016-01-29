@@ -1,0 +1,11 @@
+prefix=/
+exec_prefix=
+libdir=/lib
+includedir=//include
+
+Name: libcap
+Description: libcap
+Version: 1.24
+Libs: -L${libdir} -lcap
+Libs.private: -lattr
+Cflags: -I${includedir}

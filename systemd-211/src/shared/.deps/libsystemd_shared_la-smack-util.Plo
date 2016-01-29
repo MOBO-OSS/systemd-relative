@@ -1,0 +1,75 @@
+src/shared/libsystemd_shared_la-smack-util.lo: src/shared/smack-util.c \
+ config.h /usr/OSS/systemd_relative/production/include/unistd.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/bits/posix_opt.h \
+ /usr/OSS/systemd_relative/production/include/bits/environments.h \
+ /usr/OSS/systemd_relative/production/include/bits/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/typesizes.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/OSS/systemd_relative/production/include/bits/confname.h \
+ /usr/OSS/systemd_relative/production/include/getopt.h \
+ /usr/OSS/systemd_relative/production/include/string.h \
+ /usr/OSS/systemd_relative/production/include/xlocale.h \
+ /usr/OSS/systemd_relative/production/include/attr/xattr.h \
+ /usr/OSS/systemd_relative/production/include/errno.h \
+ /usr/OSS/systemd_relative/production/include/bits/errno.h \
+ /usr/OSS/systemd_relative/production/include/linux/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno.h \
+ /usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h \
+ src/shared/smack-util.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h
+
+config.h:
+
+/usr/OSS/systemd_relative/production/include/unistd.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/posix_opt.h:
+
+/usr/OSS/systemd_relative/production/include/bits/environments.h:
+
+/usr/OSS/systemd_relative/production/include/bits/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/typesizes.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/bits/confname.h:
+
+/usr/OSS/systemd_relative/production/include/getopt.h:
+
+/usr/OSS/systemd_relative/production/include/string.h:
+
+/usr/OSS/systemd_relative/production/include/xlocale.h:
+
+/usr/OSS/systemd_relative/production/include/attr/xattr.h:
+
+/usr/OSS/systemd_relative/production/include/errno.h:
+
+/usr/OSS/systemd_relative/production/include/bits/errno.h:
+
+/usr/OSS/systemd_relative/production/include/linux/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno.h:
+
+/usr/OSS/systemd_relative/production/include/asm-generic/errno-base.h:
+
+src/shared/smack-util.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h:

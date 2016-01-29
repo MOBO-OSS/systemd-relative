@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteEchoService
+Exec=/usr/OSS/systemd_relative/dbus_relative/dbus-1.10.4/test/test-service
+User=anyrandomuser
+

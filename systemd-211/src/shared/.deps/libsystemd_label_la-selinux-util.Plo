@@ -1,0 +1,9 @@
+src/shared/libsystemd_label_la-selinux-util.lo: src/shared/selinux-util.c \
+ config.h src/shared/selinux-util.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h
+
+config.h:
+
+src/shared/selinux-util.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h:

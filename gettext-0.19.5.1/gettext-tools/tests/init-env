@@ -1,0 +1,43 @@
+# Variable needed by LTLIBINTL.
+top_builddir=../..
+
+OBJEXT="o"
+EXEEXT=""
+CC="arm-linux-gnueabi-gcc -std=gnu99"
+CFLAGS="-g -O2"
+CXX="arm-linux-gnueabi-g++"
+CXXFLAGS="-g -O2"
+CPPFLAGS=""
+LDFLAGS=""
+LTLIBINTL=""
+JAVA_CHOICE="yes"
+BUILDJAVA="yes"
+TESTJAVA="yes"
+CSHARP_CHOICE="any"
+BUILDCSHARP="yes"
+TESTCSHARP="yes"
+TESTLIBASPRINTF="yes"
+GLIBC2="yes"
+LOCALE_FR="none"
+LOCALE_FR_UTF8="none"
+LOCALE_JA="none"
+host_os="linux-gnueabi"
+
+: ${GETTEXT=tstgettext}
+: ${NGETTEXT=tstngettext}
+: ${XGETTEXT=xgettext}
+: ${MSGATTRIB=msgattrib}
+: ${MSGCAT=msgcat}
+: ${MSGCMP=msgcmp}
+: ${MSGCOMM=msgcomm}
+: ${MSGCONV=msgconv}
+: ${MSGEN=msgen}
+: ${MSGEXEC=msgexec}
+: ${MSGFILTER=msgfilter}
+: ${MSGFMT=msgfmt}
+: ${MSGGREP=msggrep}
+: ${MSGINIT=msginit}
+: ${MSGMERGE=msgmerge}
+: ${MSGUNFMT=msgunfmt}
+: ${MSGUNIQ=msguniq}
+: ${RECODE=recode}

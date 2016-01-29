@@ -1,0 +1,27 @@
+src/shared/libsystemd_shared_la-MurmurHash2.lo: src/shared/MurmurHash2.c \
+ config.h src/shared/MurmurHash2.h \
+ /usr/OSS/systemd_relative/production/include/stdint.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wchar.h
+
+config.h:
+
+src/shared/MurmurHash2.h:
+
+/usr/OSS/systemd_relative/production/include/stdint.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wchar.h:

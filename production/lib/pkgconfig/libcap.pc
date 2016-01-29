@@ -1,0 +1,11 @@
+prefix=/usr/OSS/systemd_relative/production
+exec_prefix=
+libdir=/usr/OSS/systemd_relative/production/lib
+includedir=/usr/OSS/systemd_relative/production/include
+
+Name: libcap
+Description: libcap
+Version: 1.24
+Libs: -L${libdir} -lcap
+Libs.private: -lattr
+Cflags: -I${includedir}

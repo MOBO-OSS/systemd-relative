@@ -1,0 +1,90 @@
+src/test/test-daemon.o: src/test/test-daemon.c config.h \
+ /usr/OSS/systemd_relative/production/include/unistd.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/bits/posix_opt.h \
+ /usr/OSS/systemd_relative/production/include/bits/environments.h \
+ /usr/OSS/systemd_relative/production/include/bits/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/typesizes.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/OSS/systemd_relative/production/include/bits/confname.h \
+ /usr/OSS/systemd_relative/production/include/getopt.h \
+ src/systemd/sd-daemon.h \
+ /usr/OSS/systemd_relative/production/include/sys/types.h \
+ /usr/OSS/systemd_relative/production/include/time.h \
+ /usr/OSS/systemd_relative/production/include/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/byteswap.h \
+ /usr/OSS/systemd_relative/production/include/sys/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/sigset.h \
+ /usr/OSS/systemd_relative/production/include/bits/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/sysmacros.h \
+ /usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h \
+ /usr/OSS/systemd_relative/production/include/inttypes.h \
+ /usr/OSS/systemd_relative/production/include/stdint.h \
+ /usr/OSS/systemd_relative/production/include/bits/wchar.h \
+ src/systemd/_sd-common.h
+
+config.h:
+
+/usr/OSS/systemd_relative/production/include/unistd.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/posix_opt.h:
+
+/usr/OSS/systemd_relative/production/include/bits/environments.h:
+
+/usr/OSS/systemd_relative/production/include/bits/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/typesizes.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/bits/confname.h:
+
+/usr/OSS/systemd_relative/production/include/getopt.h:
+
+src/systemd/sd-daemon.h:
+
+/usr/OSS/systemd_relative/production/include/sys/types.h:
+
+/usr/OSS/systemd_relative/production/include/time.h:
+
+/usr/OSS/systemd_relative/production/include/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/byteswap.h:
+
+/usr/OSS/systemd_relative/production/include/sys/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sigset.h:
+
+/usr/OSS/systemd_relative/production/include/bits/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/sysmacros.h:
+
+/usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h:
+
+/usr/OSS/systemd_relative/production/include/inttypes.h:
+
+/usr/OSS/systemd_relative/production/include/stdint.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wchar.h:
+
+src/systemd/_sd-common.h:

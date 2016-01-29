@@ -1,0 +1,103 @@
+libdbus_1_la-dbus-timeout.lo: dbus-timeout.c ../config.h dbus-internals.h \
+ ../dbus/dbus-memory.h ../dbus/dbus-macros.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h ../dbus/dbus-types.h \
+ ../dbus/dbus-arch-deps.h ../dbus/dbus-errors.h ../dbus/dbus-protocol.h \
+ ../dbus/dbus-sysdeps.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdint.h \
+ /usr/arm-linux-gnueabi/include/stdint.h \
+ /usr/arm-linux-gnueabi/include/features.h \
+ /usr/arm-linux-gnueabi/include/bits/predefs.h \
+ /usr/arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabi/include/bits/wchar.h \
+ /usr/arm-linux-gnueabi/include/inttypes.h ../dbus/dbus-file.h \
+ ../dbus/dbus-string.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h \
+ /usr/arm-linux-gnueabi/include/string.h \
+ /usr/arm-linux-gnueabi/include/xlocale.h \
+ /usr/arm-linux-gnueabi/include/sys/poll.h \
+ /usr/arm-linux-gnueabi/include/bits/poll.h \
+ /usr/arm-linux-gnueabi/include/bits/sigset.h \
+ /usr/arm-linux-gnueabi/include/time.h \
+ /usr/arm-linux-gnueabi/include/bits/types.h \
+ /usr/arm-linux-gnueabi/include/bits/typesizes.h \
+ ../dbus/dbus-threads-internal.h ../dbus/dbus-threads.h dbus-timeout.h \
+ ../dbus/dbus-connection.h ../dbus/dbus-message.h ../dbus/dbus-shared.h \
+ ../dbus/dbus-internals.h dbus-list.h
+
+../config.h:
+
+dbus-internals.h:
+
+../dbus/dbus-memory.h:
+
+../dbus/dbus-macros.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+../dbus/dbus-types.h:
+
+../dbus/dbus-arch-deps.h:
+
+../dbus/dbus-errors.h:
+
+../dbus/dbus-protocol.h:
+
+../dbus/dbus-sysdeps.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdint.h:
+
+/usr/arm-linux-gnueabi/include/stdint.h:
+
+/usr/arm-linux-gnueabi/include/features.h:
+
+/usr/arm-linux-gnueabi/include/bits/predefs.h:
+
+/usr/arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabi/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabi/include/inttypes.h:
+
+../dbus/dbus-file.h:
+
+../dbus/dbus-string.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdarg.h:
+
+/usr/arm-linux-gnueabi/include/string.h:
+
+/usr/arm-linux-gnueabi/include/xlocale.h:
+
+/usr/arm-linux-gnueabi/include/sys/poll.h:
+
+/usr/arm-linux-gnueabi/include/bits/poll.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigset.h:
+
+/usr/arm-linux-gnueabi/include/time.h:
+
+/usr/arm-linux-gnueabi/include/bits/types.h:
+
+/usr/arm-linux-gnueabi/include/bits/typesizes.h:
+
+../dbus/dbus-threads-internal.h:
+
+../dbus/dbus-threads.h:
+
+dbus-timeout.h:
+
+../dbus/dbus-connection.h:
+
+../dbus/dbus-message.h:
+
+../dbus/dbus-shared.h:
+
+../dbus/dbus-internals.h:
+
+dbus-list.h:

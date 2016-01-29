@@ -1,0 +1,87 @@
+src/shared/libsystemd_shared_la-gunicode.lo: src/shared/gunicode.c \
+ config.h src/shared/gunicode.h \
+ /usr/OSS/systemd_relative/production/include/stdint.h \
+ /usr/OSS/systemd_relative/production/include/features.h \
+ /usr/OSS/systemd_relative/production/include/bits/predefs.h \
+ /usr/OSS/systemd_relative/production/include/sys/cdefs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wordsize.h \
+ /usr/OSS/systemd_relative/production/include/gnu/stubs.h \
+ /usr/OSS/systemd_relative/production/include/bits/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h \
+ /usr/OSS/systemd_relative/production/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h \
+ /usr/OSS/systemd_relative/production/include/bits/waitflags.h \
+ /usr/OSS/systemd_relative/production/include/bits/waitstatus.h \
+ /usr/OSS/systemd_relative/production/include/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/endian.h \
+ /usr/OSS/systemd_relative/production/include/bits/byteswap.h \
+ /usr/OSS/systemd_relative/production/include/xlocale.h \
+ /usr/OSS/systemd_relative/production/include/sys/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/types.h \
+ /usr/OSS/systemd_relative/production/include/bits/typesizes.h \
+ /usr/OSS/systemd_relative/production/include/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/select.h \
+ /usr/OSS/systemd_relative/production/include/bits/sigset.h \
+ /usr/OSS/systemd_relative/production/include/bits/time.h \
+ /usr/OSS/systemd_relative/production/include/sys/sysmacros.h \
+ /usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h \
+ /usr/OSS/systemd_relative/production/include/alloca.h
+
+config.h:
+
+src/shared/gunicode.h:
+
+/usr/OSS/systemd_relative/production/include/stdint.h:
+
+/usr/OSS/systemd_relative/production/include/features.h:
+
+/usr/OSS/systemd_relative/production/include/bits/predefs.h:
+
+/usr/OSS/systemd_relative/production/include/sys/cdefs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wordsize.h:
+
+/usr/OSS/systemd_relative/production/include/gnu/stubs.h:
+
+/usr/OSS/systemd_relative/production/include/bits/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stdbool.h:
+
+/usr/OSS/systemd_relative/production/include/stdlib.h:
+
+/usr/lib/gcc/arm-linux-gnueabi/4.6/include/stddef.h:
+
+/usr/OSS/systemd_relative/production/include/bits/waitflags.h:
+
+/usr/OSS/systemd_relative/production/include/bits/waitstatus.h:
+
+/usr/OSS/systemd_relative/production/include/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/endian.h:
+
+/usr/OSS/systemd_relative/production/include/bits/byteswap.h:
+
+/usr/OSS/systemd_relative/production/include/xlocale.h:
+
+/usr/OSS/systemd_relative/production/include/sys/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/types.h:
+
+/usr/OSS/systemd_relative/production/include/bits/typesizes.h:
+
+/usr/OSS/systemd_relative/production/include/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/select.h:
+
+/usr/OSS/systemd_relative/production/include/bits/sigset.h:
+
+/usr/OSS/systemd_relative/production/include/bits/time.h:
+
+/usr/OSS/systemd_relative/production/include/sys/sysmacros.h:
+
+/usr/OSS/systemd_relative/production/include/bits/pthreadtypes.h:
+
+/usr/OSS/systemd_relative/production/include/alloca.h:
